@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: gray;
+    transition: 1s;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    gap: 16px;
+}
+.item{
+    height: 150px;
+    width: 80%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+    border-radius: 14px;
+    transition: 1s;
+}
+.texto{
+    color: black;
+    font-size: 64px;
+}
+.forma{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    transition: 1s;
+    cursor: pointer;
+    border: solid;
+    border-color: black;
+}
+.vermelho{
+    background-color: red;
+}
+.circulo{
+    border-radius: 50%;
+}
+.preto{
+    background-color: whitesmoke;
+    border: none;
+}
+.girar{
+    transform: rotate(360deg);
+}
+.imagem{
+    background-image: url("./img/timao.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.vertical{
+    transform: rotateY(180deg);
+    background-image: url(./img/ooooutrolado.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.branco{
+    background-color: whitesmoke;
+}
+.cinza{
+    background-color: gray;
+    border: solid;
+    border-color: whitesmoke;
+}
+.container2{
+    display: none;
+}
+.acabar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.none{
+    display: none;
+}
+.p{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
